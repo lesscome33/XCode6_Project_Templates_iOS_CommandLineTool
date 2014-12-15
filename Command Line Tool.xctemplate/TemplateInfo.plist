@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.yourname.objectiveCApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Definitions</key>
+	<dict>
+		<key>Supporting Files/Prefix.pch:objC:importUIKit</key>
+		<string>@import UIKit;</string>
+		<key>Supporting Files/Info.plist:iPhone</key>
+		<string>&lt;key&gt;CFBundleDisplayName&lt;/key&gt;
+&lt;string&gt;${PRODUCT_NAME}&lt;/string&gt;
+&lt;key&gt;LSRequiresIPhoneOS&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;UIRequiredDeviceCapabilities&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;armv7&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Supporting Files/Info.plist:UISupportedInterfaceOrientations</key>
+		<string>&lt;key&gt;UISupportedInterfaceOrientations&lt;/key&gt;
+&lt;array&gt;
+     &lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+     &lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;
+&lt;key&gt;UISupportedInterfaceOrientations~ipad&lt;/key&gt;
+&lt;array&gt;
+	&lt;string&gt;UIInterfaceOrientationPortrait&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationPortraitUpsideDown&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeLeft&lt;/string&gt;
+	&lt;string&gt;UIInterfaceOrientationLandscapeRight&lt;/string&gt;
+&lt;/array&gt;</string>
+		<key>Supporting Files/main.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>main.m</string>
+		</dict>
+		<key>Supporting Files/Entitlements.entitlements</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Entitlements.entitlements</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Classes/</key>
+		<dict>
+			<key>Path</key>
+			<string>Classes</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Resources/</key>
+		<dict>
+			<key>Path</key>
+			<string>Resources</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+		<key>Resources/InfoPlist.strings</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>InfoPlist.strings</string>
+		</dict>
+		<key>Resources/iTunesArtwork</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>iTunesArtwork</string>
+		</dict>
+		<key>Resources/iTunesArtwork@2x</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Resources</string>
+			</array>
+			<key>Path</key>
+			<string>iTunesArtwork@2x</string>
+		</dict>
+		<key>Vendors/</key>
+		<dict>
+			<key>Path</key>
+			<string>Vendors/</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>This template is to building a Command Line Tool on iOS.</string>
+	<key>Identifier</key>
+	<string>com.yourname.iOSApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Nodes</key>
+	<array>
+		<string>Supporting Files/Prefix.pch:objC:importUIKit</string>
+		<string>Supporting Files/Info.plist:iPhone</string>
+		<string>Supporting Files/Info.plist:UISupportedInterfaceOrientations</string>
+		<string>Supporting Files/main.m</string>
+		<string>Supporting Files/Entitlements.entitlements</string>
+		<string>Resources/</string>
+		<string>Resources/InfoPlist.strings</string>
+		<string>Resources/iTunesArtwork</string>
+		<string>Resources/iTunesArtwork@2x</string>
+		<string>Classes/</string>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>SDK</key>
+		<string>iphoneos</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>latest_iphoneos</string>
+			<key>TARGETED_DEVICE_FAMILY</key>
+			<string>1,2</string>
+			<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+			<string>iPhone Developer</string>
+			<key>CODE_SIGN_ENTITLEMENTS</key>
+			<string>___PACKAGENAME___/Supporting Files/Entitlements.entitlements</string>
+		</dict>
+		<key>Configurations</key>
+		<dict/>
+	</dict>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>SharedSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+				<string>LaunchImage</string>
+			</dict>
+			<key>Configurations</key>
+			<dict>
+				<key>Debug</key>
+				<dict>
+					<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+					<string>AppIcon_Debug</string>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
